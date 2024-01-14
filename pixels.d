@@ -33,9 +33,11 @@ void main()
     Color golden = Color(255, 213, 0), rufous = Color(153, 25, 0), tawny = Color(204, 102, 0), tangerine = Color(255, 179, 25),
           jasmine = Color(255, 234, 128), icterine = Color(229, 255, 102), neonGreen = Color(77, 255, 77), aqua = Color(0, 255, 255),
           mayaBlue = Color(77, 195, 255), ultraPink = Color(255, 77, 255);
-    // create 4 arrays with different colors
+    // create an array with strong colors
     Color[5] allStrongColors = [Color.blue(), Color.green(), Color.magenta(), Color.purple(), Color.red()];
+    // create an array with the predefined colors
     Color[8] allPredefinedColors = allStrongColors ~ [Color.brown(), Color.teal(), Color.yellow()];
+    // create an array with all colors
     Color[18] allColors = allPredefinedColors ~ [golden, rufous, tawny, tangerine, jasmine, icterine, neonGreen, aqua, mayaBlue, ultraPink];
 
     // start the event loop
