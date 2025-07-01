@@ -1,5 +1,6 @@
 // This software is an artwork, it creates a screen full of pixels changing color.
 
+// import all the tools we need
 import arsd.simpledisplay : Color, Point, ScreenPainter, SimpleWindow;
 import std.random : choice, uniform;
 
