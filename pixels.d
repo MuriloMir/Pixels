@@ -25,6 +25,7 @@ void paint(int xBegin, int xEnd, int yBegin, int yEnd, Color[] colors, ScreenPai
         }
 }
 
+// start the software
 void main()
 {
     // create the window for the GUI
